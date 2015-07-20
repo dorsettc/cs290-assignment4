@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+        <head>
+                <title>CS 290 Assignment 4 - Collin Dorsett</title>
+                <script src="http://web.engr.oregonstate.edu/~dorsettc/cs290-assignment4/script.js"></script>
+                <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+        </head>
+        <body>
+                <h1 align="center">Assignment 4 - Gists</h1>
+
+                <form>
+                        <br><br><br><input type="number" id="pageResults" min="1" max="5"> Pages of Results
+                        <br><input id="searchQuery" type="input">
+                        <input type="button" value="Search" onclick="searchGists()">
+                </form>
+
+                <h2><u>Favorites List</u></h2>
+                <ul id="fav" style="list-style: none">
+                </ul>
+
+                <h2><u>Search Results</u></h2>
+                <ul id="results" style="list-style: none">
+                </ul>
+
+        </body>
+</html>
